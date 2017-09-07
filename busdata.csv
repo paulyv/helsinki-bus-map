@@ -1,0 +1,533 @@
+HSL:2110T;701;110T;Kamppi-Leppävaara
+HSL:2241V;701;241V;Espoon keskus-Hirvisuo
+HSL:7848;700;848;Kamppi-Pasila-Viikki-Söderkulla-Porvoo
+HSL:2246T;701;246T;Espoon keskus-Bodom-Röylä
+HSL:2246K;701;246K;Espoon keskus-Kellonummi-Röylä
+HSL:2245K;701;245K;Espoon keskus-Muurala-Nuuksionpää
+HSL:2245A;701;245A;Espoon keskus-Nuuksionpää-Kattila
+HSL:2111T;701;111T;Kamppi-Westend-Haukilahti
+HSL:6909K;701;909K;Veikkola-Lapinkylä-Kauhala
+HSL:1701;704;701;Viikki-Pihlajamäki-Malmi-Suutarila-Siltamäki
+HSL:2106K;701;106K;Kamppi-Leppävaara
+HSL:6908K;701;908K;Kirkkonummi-Evitskog-Kylmälä-Veikkola-Kaislampi
+HSL:2239T;701;239T;Leppävaara-Viherlaakso-Röylä-Perusmäki-Kalajärvi
+HSL:1704;704;704;Malmi-Sepänmäki
+HSL:1702;704;702;Jakomäki-Puistola-Malmi-Tapaninvainio-Savela
+HSL:2238T;701;238T;Leppävaara-Nupuri-Brobacka-Siikaranta
+HSL:2238K;701;238K;Leppävaara-Nupuri-Kolmperä-Siikajärvi-Siikaniemi
+HSL:1039N;701;39N;Asema-aukio-Munkkiniemi-Konala-Malminkartano-Honkasuo
+HSL:2238B;701;238B;Leppävaara-Nupuri-Brobacka-Siikajärvi
+HSL:2103T;701;103T;Kamppi-Lauttasaari-Otaniemi-Pohjois-Tapiola
+HSL:2236V;701;236V;Leppävaara-Viherlaakso-Koskelo-Kalajärvi-Serena
+HSL:2236K;701;236K;Leppävaara-Kera-Viherlaakso-Kalajärvi-Serena
+HSL:1039B;701;39B;Kamppi-Munkkiniemi-Konala (teollisuusalue)
+HSL:1039B;701;39B;Kamppi-Munkkiniemi-Konala (teollisuusalue)
+HSL:2109N;701;109N;Kamppi-Suurpelto-Jorvi
+HSL:6903K;701;903K;Kirkkonummi-Kantvik-Hila
+HSL:2109T;701;109T;Kamppi-Jorvi
+HSL:6902K;701;902K;Pikkalan tehdas-Kirkkonummi-Porkkala
+HSL:6901K;701;901K;Luoma-Masala-Gesterby-Hirsala
+HSL:2132NT;701;132NT;Kamppi-Lauttasaari-Haukilahti-Matinkylä-Friisilänaukio
+HSL:7632B;700;632B;Helsinki-Aviapolis-Myllykylä-Hyrylä
+HSL:2122A;701;122A;Kamppi-Holmanmäki
+HSL:2121T;701;121T;Kamppi-Kuitinmäki
+HSL:2121N;701;121N;Kamppi-Mankkaa
+HSL:2121K;701;121K;Kamppi-Kuitinmäki-Henttaa
+HSL:7635B;700;635B;Helsinki-Maantiekylä (-Hyrylä)
+HSL:7635Z;700;635Z;Helsinki-Maantiekylä-Kerava
+HSL:7974;700;974;Korso-Vallinoja (-Hyrylä)
+HSL:7963;700;963;Hyrylä-Kilta-Keravan asema
+HSL:7962;700;962;Jumbo-Aviapolis-Hyrylä-Kerava
+HSL:7635BZ;700;635BZ;Helsinki-Maantiekylä-Hyrylä
+HSL:7989;700;989;Pornainen-Järvenpää as.
+HSL:7983;700;983;Keravan tori-Keravan as.-Nikkilä-Kilpilahti
+HSL:1058B;701;58B;Itäkeskus(M)-Pasila-Meilahden klinikat
+HSL:31M2K;1;M2K;Kamppi - Mellunmäki
+HSL:1811;704;811;Kivikko-Kontula-Mellunmäki-Länsimäki-Rajakylä
+HSL:1819;704;819;Vuosaari(M)-Uutela
+HSL:1818;701;818;Vuosaari (M)-Vuosaaren satama-Mellunmäki (M)
+HSL:1817;704;817;Vuosaari(M)-Kallahti
+HSL:1816;704;816;Vuosaari(M)-Ramsinniemi
+HSL:1815;704;815;Vuosaari(M)-Isonvillasaarentie
+HSL:1814;704;814;Vuosaari(M)-Koukkusaarentie
+HSL:1813;704;813;Vuosaari(M)-Pohjoinen ostoskeskus
+HSL:1812;704;812;Mellunmäki-Myllypuro
+HSL:31M1B;1;M1B;Itäkeskus - Vuosaari
+HSL:31M2B;1;M2B;Itäkeskus - Mellunmäki
+HSL:1805;704;805;Itäkeskus(M)-Myllypuro
+HSL:1802;704;802;Itäkeskus(M)-Jollas
+HSL:1801;704;801;Itäkeskus-Varjakanvalkama
+HSL:1021V;701;21V;Asema-aukio-Lauttasaari(Vattuniemi)
+HSL:7640;700;640;Helsinki-Maantiekylä (-Hyrylä)
+HSL:1020X;701;20X;Kamppi-Lauttasaari (Katajaharju)
+HSL:1020N;701;20N;Asema-aukio-Lauttasaari
+HSL:7635;700;635;Helsinki-Maantiekylä-Kerava
+HSL:7638;700;638;Helsinki-Maantiekylä-Kerava
+HSL:2147KT;701;147KT;Kamppi-Lauttasaari-Kivenlahti
+HSL:7632;700;632;Helsinki-Aviapolis-Myllykylä-Kerava
+HSL:1023N;701;23N;Länsiterminaali-Kamppi-Kallio-Pasila-Ilmala
+HSL:2349B;701;349B;Lepsämänjoki-Kalajärvi
+HSL:2348V;701;348V;Rinnekoti-Kalajärvi
+HSL:2215A;701;215A;Leppävaara-Jupperi-Lähderanta-Högnäs
+HSL:2214T;701;214T;Leppävaara-Karakallio-Rastaala-Veini-Jupperi
+HSL:4611B;701;611B;Rautatientori-Siltamäki-Suutarila
+HSL:1016X;701;16X;Rautatientori - Korkeasaari
+HSL:2121NK;701;121NK;Kamppi-Henttaa-Mankkaa
+HSL:2213N;701;213N;Kamppi-Meilahti-Laajalahti-Suvela-Espoon keskus-Kauklahti
+HSL:2345N;701;345N;Elielinaukio-Hämeenkylä-Rinnekoti
+HSL:1014X;701;14X;Hernesaari-Kamppi
+HSL:1018N;701;18N;Hernesaari-Kamppi- Munkkivuori
+HSL:1019E;4;19E;Katajanokka-Suomenlinna
+HSL:6174Z;701;174Z;Kamppi-Kirkkonummi-Gesterby
+HSL:1554;701;554;Itäkeskus-Malmi-Tapaninkylä
+HSL:1506;701;506;Myllypuro(M)-Viikki-Kumpula-Pasila-Meilahti
+HSL:2121NT;701;121NT;Kamppi-Kuitinmäki
+HSL:6173Z;701;173Z;Kamppi-Kirkkonummi-Upinniemi
+HSL:2231N;701;231N;Elielinaukio-Leppävaara-Lintuvaara-Järvenperä
+HSL:2102T;701;102T;Kamppi-Lauttasaari-Otaniemi
+HSL:2235N;701;235N;Elielinaukio-Leppävaara-Espoon keskus-Kuurinniitty
+HSL:2227V;701;227V;Leppävaara-Lippajärvi-Espoon keskus
+HSL:4623B;701;623B;Hakaniemi-Leinelä
+HSL:2227N;701;227N;Leppävaara-Karakallio-Lippajärvi-Jorvi
+HSL:2226A;701;226A;Leppävaara-Karakallio-Viherlaakso-Jorvi-Kellonummi
+HSL:1603;704;603;Malmi-Oulunkylä-Koskela-Käpylä-Maunula-Pakila-Paloheinä
+HSL:9785K;701;785K;Rautatientori-Kuninkaanmäki-Nikkilä
+HSL:9787K;701;787K;Rautatientori-Kuninkaanmäki-Nikkilä-Pornainen
+HSL:9787A;701;787A;Rautatientori-Jokivarsi-Nikkilä-Pornainen-Halkia
+HSL:4624N;701;624N;Tikkurila-Ruskeasanta-Ilola-Leinelä
+HSL:9788K;701;788K;Rautatientori-Kuninkaanmäki-Nikkilä-Hinthaara-Porvoo
+HSL:9788B;701;788B;Nikkilä-Hinthaara-Porvoo
+HSL:2553;701;553;Hakunila-Malmi-Maunula-Leppävaara
+HSL:2552;701;552;Malmi-Maunula-Munkkiniemi-Otaniemi
+HSL:2551;701;551;Pasila-Meilahti-Westendinasema
+HSL:2550;702;550;Itäkeskus-Westendinasema
+HSL:2543;701;543;Leppävaara-Kivenlahti
+HSL:2582;701;582;Espoon keskus-Juvanmalmi-Kalajärvi-Serena
+HSL:1001H;0;1H;Hattulantie - Käpylä
+HSL:7486;700;486;Kamppi-Keimola-Luhtaanmäki (-Klaukkala)
+HSL:7485;700;485;Kamppi-Keimola-Syväoja (-Hyvinkää)
+HSL:7480;700;480;Kamppi-Keimola-Luhtaanmäki (-Klaukkala)
+HSL:6182;701;182;Kirkkonummi-Siuntio
+HSL:6181;701;181;Kirkkonummi-Siuntio
+HSL:6171;701;171;Kamppi-Masala-Kirkkonummi
+HSL:6173;701;173;Kamppi-Masala-Kirkkonummi-Upinniemi
+HSL:6172;701;172;Kamppi-Masala-Kirkkonummi-Kantvik
+HSL:2321N;701;321N;Elielinaukio-Jupperi-Vanhakartano-Niipperi
+HSL:7455;700;455;Kamppi-Keimola-Luhtaanmäki (-Klaukkala)
+HSL:7457;700;457;Kamppi-Keimola-Luhtaanmäki (-Klaukkala)
+HSL:7456;700;456;Kamppi-Keimola-Luhtaanmäki (-Klaukkala)
+HSL:4724N;701;724N;Rautatientori-Tikkurila-Koivukylä-Päiväkumpu
+HSL:7465;700;465;Kamppi-Keimola-Syväoja
+HSL:7355T;700;355T;Helsinki-Klaukkala
+HSL:7989A;700;989A;Monninkylä-Pornainen-Järvenpää as.
+HSL:7989V;700;989V;Monninkylä-Pornainen-Järvenpää as.
+HSL:1010H;0;10H;Töölön halli - Ruskeasuo - Pikku Huopalahti
+HSL:1010X;0;10X;Kuusitie - Pikku Huopalahti
+HSL:2203V;701;203V;Leppävaara-Uusmäki
+HSL:2203N;701;203N;Nuijala-Leppävaara-Uusmäki
+HSL:4731N;701;731N;Rautatientori-Kulomäki
+HSL:1004H;0;4H;Töölön halli - Meilahti - Munkkiniemi
+HSL:9633N;701;633N;Rautatientori-Vallinoja-Kerava-Sorsakorpi
+HSL:9633A;701;633A;Rautatientori-Vallinoja-Kerava-Virrenkulma
+HSL:1003H;0;3H;Olympiaterminaali - Eira - Urheilutalo
+HSL:2201B;701;201B;Leppävaara-Mäkkylä-Pitäjänmäki
+HSL:1002B;0;2B;Töölö halli - Pasilan asema
+HSL:1002H;0;2H;Töölön halli - Länsi-Pasila
+HSL:6243;701;243;Espoon keskus-Muurala-Kolmperä-Kolmiranta-Veikkola
+HSL:1009H;0;9H;Jätkäsaari - Rautatieasema - Kallio
+HSL:4736A;701;736A;Jokiniemi-Tikkurila-Korso-Vierumäki
+HSL:1008H;0;8H;Vallila - Arabia
+HSL:2206A;701;206A;Kamppi-Meilahti-Etelä-Leppävaara-Kilo-Karakallio-Kera
+HSL:1007H;0;7H;Hattulantie - Länsi-Pasila
+HSL:1007M;0;7M;Rautatientori - Hakaniemi - Sörnäinen (M) - Messukeskus
+HSL:1006T;0;6T;Länsiterminaali - Rautatieasema - Sörnäinen (M) - Arabia
+HSL:1006H;0;6H;Arabia - Vallila
+HSL:4739V;701;739V;Rautatientori-Pohjois-Nikinmäki
+HSL:4737K;701;737K;Pohjois-Nikinmäki-Nikinmäki-Jokivarsi-Mikkola-Korso
+HSL:1021BX;701;21BX;Kamppi-Lauttasaari (Vattuniemi)
+HSL:1033;704;33;Munkkivuori-Tarvo
+HSL:1032;704;32;Pohjois-Haaga-Munkkivuori
+HSL:1031;704;31;Pohjois-Haaga-Munkkivuori
+HSL:1026;704;26;Hakaniemi-Kalasatama
+HSL:1024;701;24;Merikatu-Seurasaari
+HSL:1023;701;23;Rautatientori-Pasila-Ruskeasuo
+HSL:1020;701;20;Erottaja-Lauttasaari (Katajaharju)
+HSL:1019;4;19;Kauppatori-Suomenlinna
+HSL:2349;701;349;Lepsämänjoki-Hännikäinen-Serena-Kalajärvi-Lahnus-Röylä
+HSL:1018;701;18;Eira-Kamppi-Munkkivuori
+HSL:2348;701;348;Rinnekoti-Röylä-Kalajärvi
+HSL:1017;701;17;Hakaniemi - Salmisaari
+HSL:1016;701;16;Rautatientori-Korkeasaari
+HSL:1015;701;15;Ruoholahti-Salmisaari
+HSL:2345;701;345;Elielinaukio-Rinnekoti
+HSL:1014;701;14;Hernesaari-Kamppi-Pajamäki
+HSL:1055;701;55;Rautatientori-Koskela
+HSL:1054;701;54;Itäkeskus(M)- Pitäjänmäki
+HSL:1052;701;52;Arabia-Oulunkylä-Munkkiniemi
+HSL:1051;701;51;Hakaniemi-Maunula-Malminkartano
+HSL:1050;701;50;Herttoniemi(M)-Pasila-Ilmala-Suursuo
+HSL:1043;701;43;Elielinaukio-Kannelmäki-Hakuninmaa
+HSL:1042;701;42;Kamppi-Maununneva-Kannelmäki
+HSL:1041;701;41;Kamppi-Haaga-Kannelmäki
+HSL:1040;701;40;Elielinaukio-Pohjois-Haagan asema
+HSL:1039;701;39;Kamppi-Munkkiniemi-Konala-Malminkartano-Myyrmäki
+HSL:1037;701;37;Kamppi - Honkasuo
+HSL:1036;704;36;Konala-Kannelmäki-Maununneva-Pirkkola
+HSL:1035;704;35;Niemenmäki-Munkkivuori-Rakuunantie
+HSL:1034;704;34;Munkkivuori-Kaskisaari
+HSL:1010;0;10;Kirurgi - Lasipalatsi - Ruskeasuo - Pikku Huopalahti
+HSL:1008;0;8;Jätkäsaari - Töölö - Sörnäinen (M) - Arabia
+HSL:1007;0;7;Länsiterminaali - Kruununhaka - Sörnäinen (M) - Länsi-Pasila
+HSL:1006;0;6;Hietalahti - Rautatieasema - Sörnäinen (M) - Arabia
+HSL:1005;0;5;Katajanokan terminaali - Rautatieasema
+HSL:1004;0;4;Katajanokka - Lasipalatsi - Meilahti - Munkkiniemi
+HSL:1003;0;3;Olympiaterminaali - Eira - Kallio - Töölön halli
+HSL:1002;0;2;Olympiaterminaali - Töölö - Länsi-Pasila
+HSL:1001;0;1;Eira - Töölö - Sörnäinen (M) - Käpylä
+HSL:2160KT;701;160KT;Kamppi-Lauttasaari-Latokaski
+HSL:1009;0;9;Jätkäsaari - Rautatieasema - Kallio - Pasilan asema
+HSL:2321;701;321;Elielinaukio-Jupperi-Vanhakartano
+HSL:9738K;701;738K;Rautatientori-Kerava
+HSL:2245KA;701;245KA;Espoon keskus-Muurala-Nuuksionpää-Kattila
+HSL:9841;701;841;Itäkeskus-Östersundom-Söderkulla
+HSL:1077;701;77;Rautatientori-Tattarisuo-Jakomäki
+HSL:1075;701;75;Rautatientori-Jakomäki-Puistolan asema
+HSL:1074;701;74;Hakaniemi-Malmi-Tapanila-Puistola-Heikinlaakso
+HSL:1073;701;73;Hakaniemi-Malmi-Puistolan as.-Ala-Tikkurila
+HSL:1071;701;71;Rautatientori-Pihlajisto-Pihlajamäki-Malmi
+HSL:1070;701;70;Kamppi-Töölö-Pihlajamäki-Pukinmäki-Malmi
+HSL:1069;701;69;Kamppi-Pasila-Käpylä-Malmi-Jakomäki
+HSL:1067;701;67;Rautatientori-Maunula-Pakila-Torpparinmäki
+HSL:1066;701;66;Rautatientori-Maunula-Länsi-Pakila-Paloheinä
+HSL:1065;701;65;Rautatientori-Käpylä-Veräjälaakso
+HSL:1064;701;64;Rautatientori-Oulunkylä-Itä-Pakila
+HSL:1063;701;63;Elielinaukio-Maunula-Paloheinä
+HSL:1061;701;61;Rautatientori-Pukinmäki-Siltamäki
+HSL:1059;701;59;Herttoniemi(M)-Pasila-Pajamäki
+HSL:1058;701;58;Itäkeskus(M)-Pasila-Munkkivuori
+HSL:1057;701;57;Kontula(M)-Kivikko-Latokartano-Käpylä-Munkkiniemi
+HSL:1056;701;56;Kalasatama(M)-Käpylä-Kannelmäki
+HSL:1091;701;91;Rapuojantie-Östersundom-Puroniitty
+HSL:1090;701;90;Vuosaari(M)-Aurinkolahti-Vuosaaren satama
+HSL:1098;701;98;Itäkeskus(M)-Marjaniemi-Rastila(M)
+HSL:1097;701;97;Itäkeskus(M)-Vartioharju-Mellunmäki(M)
+HSL:1096;701;96;Vuosaari(M)-Porslahdentie
+HSL:1095;701;95;Itäkeskus(M)-Mellunmäki(M)-Kontula(M)-Keinutie
+HSL:1094;701;94;Itäkeskus(M)-Porttitie-Kontula(M)-Kontulankaari
+HSL:1093;701;93;Itäkeskus(M)-Östersundom-Landbo
+HSL:1092;701;92;Itäkeskus(M)-Myllypuro
+HSL:1089;701;89;Herttoniemi(M)-Yliskylä
+HSL:1080;701;80;Herttoniemi(M)-Roihuvuori-Roihupelto
+HSL:1088;701;88;Herttoniemi(M) - Kaitalahti
+HSL:1086;701;86;Herttoniemi(M)-Santahamina
+HSL:1085;701;85;Herttoniemi(M)-Jollas
+HSL:1084;701;84;Herttoniemi(M)-Gunillankallio
+HSL:1083;701;83;Herttoniemi(M)-Tammisalo
+HSL:1082;701;82;Herttoniemi(M)-Roihuvuori-Itäkeskus(M)
+HSL:1081;701;81;Kulosaari-Herttoniemi(M)-Länsi-Herttoniemi
+HSL:1079;701;79;Herttoniemi (M)-Latokartano-Malmi-Siltamäki-Puistolan asem
+HSL:1078;701;78;Rautatientori-Viikki-Latokartano
+HSL:9991B;701;991B;Söderkulla-Nikkilä
+HSL:2436N;701;436N;Elielinaukio-Myyrmäki-Pähkinärinne-Kalajärvi
+HSL:9992B;701;992B;Nikkilä-Hindsby-Massby-Söderkulla
+HSL:2436K;701;436K;Elielinaukio-Martinlaakso-Juvanmalmi-Kalajärvi
+HSL:9993K;701;993K;Söderkulla-Box-Gesterby-Nikkilä
+HSL:9994K;701;994K;Söderkulla-Gumbostrand
+HSL:7280;700;280;Helsinki-Turunväylä-Veikkola-
+HSL:2436;701;436;Elielinaukio-Martinlaakso-Kalajärvi
+HSL:2435;701;435;Elielinaukio-Koskelo
+HSL:2582K;701;582K;Espoon keskus-Koskelo-Juvanmalmi-Kalajärvi-Serena
+HSL:2582B;701;582B;Espoon keskus-Juvanmalmi-Kalajärvi
+HSL:2246KT;701;246KT;Espoon keskus-Kellonummi-Bodom-Röylä
+HSL:9975;701;975;Sorsakorpi-Kerava as.-Mattilanpuisto
+HSL:9973;701;973;Peijas-Korso-Keravan asema-Virrenkulma
+HSL:5565B;701;565B;Jupperi-Jorvi-Espoon keskus
+HSL:7962B;700;962B;Aviapolis-Hyrylä-Kerava
+HSL:9993;701;993;Söderkulla-Box-Gesterby-Nikkilä
+HSL:9994;701;994;Söderkulla-Immersby-Gumbostrand
+HSL:9991;701;991;Eriksnäs-Söderkulla-Nikkilä
+HSL:9992;701;992;Eriksnäs-Söderkulla-Massby-Hindsby-Nikkilä
+HSL:9995;701;995;Söderkulla-Kalkkiranta
+HSL:9996;701;996;Söderkulla-Box-Spjutsund-Kitö
+HSL:9989;701;989;Pornainen-Järvenpää as.
+HSL:4711K;701;711K;Kuninkaanmäki-Sotunki-Tikkurila
+HSL:9982;701;982;Nikkilä-Neulasniitty-Talma
+HSL:9986;701;986;Nikkilä-Etelä-Paippinen-Järvenpään asema
+HSL:9987;701;987;Nikkilä-Pornainen-Järvenpään asema
+HSL:9984;701;984;Hindsby (Knuters)-Nikkilä-Talma
+HSL:9985;701;985;Nikkilä-Talma-Keravan asema
+HSL:4713B;704;713B;Hakunilan palvelulinja
+HSL:9978;701;978;Kaskela-Kytömaa-Terveyskeskus
+HSL:7355;700;355;Helsinki-Klaukkala
+HSL:7346;700;346;Helsinki-Kalajärvi-(Vihti)
+HSL:4717A;701;717A;Rautatientori-Jakomäki-Hakunila-Sotunki
+HSL:2502;701;502;Merihaka-Meilahti-Munkkiniemi-Leppävaara
+HSL:2533;701;533;Vanhakartano-Matinkylä
+HSL:4719K;701;719K;Nybygget-Länsisalmi-Hakunila
+HSL:4717N;701;717N;Rautatientori-Jakomäki-Hakunila-Kuninkaanmäki
+HSL:4719B;701;719B;Länsisalmi-Hakunila
+HSL:2122;701;122;Kamppi-Friisilänaukio
+HSL:2121;701;121;Kamppi-Kuitinmäki
+HSL:2119;704;119;Tapiola-Niittykumpu
+HSL:2117;704;117;Tapiola-Aarnivalkea-Itäranta-Tapiola
+HSL:2116;704;116;Tapiola-Pohjois-Tapiola
+HSL:2112;701;112;Kamppi-Matinkylä
+HSL:2065K;701;65K;Espoonlahti-Saunalahti-Vanttila-Kauklahti-Espoonkartano
+HSL:7989HJ;700;989HJ;Pornainen-Halkia-Järvenpää as.
+HSL:2111;701;111;Kamppi-Westend-Haukilahti
+HSL:2110;701;110;Kamppi-Leppävaara
+HSL:2107;701;107;Kamppi-Tapiola-Orion-Suurpelto
+HSL:2106;701;106;Kamppi-Leppävaara
+HSL:2105;701;105;Kamppi-Mankkaa
+HSL:2103;701;103;Kamppi-Otaniemi-Pohjois-Tapiola
+HSL:2102;701;102;Kamppi-Otaniemi
+HSL:2109;701;109;Kamppi-Jorvi
+HSL:2143;701;143;Kamppi-Soukka
+HSL:2138;704;138;Tynnyripuisto-Nuottaniemi-Matinkallio
+HSL:2137;704;137;Tynnyripuisto-Matinkallio-Piispankylä-Kuitinmäki
+HSL:2195N;701;195N;Kamppi-Teekkarikylä-Nöykkiö-Latokaski
+HSL:2132;701;132;Kamppi-Matinkylä-Friisilänaukio
+HSL:4739;701;739;Rautatientori-Päiväkumpu-Korso-Pohjois-Nikinmäki
+HSL:4731;701;731;Rautatientori-Kulomäki
+HSL:4735;701;735;Tikkurila-Korso-Mikkola
+HSL:4736;701;736;Tikkurila-Vierumäki
+HSL:4737;701;737;Pohjois-Nikinmäki-Nikinmäki-Mikkola-Korso
+HSL:3001D;109;D;Helsinki-Riihimäki
+HSL:3001K;109;K;Helsinki-Kerava
+HSL:3001I;109;I;Helsinki-Helsinki
+HSL:3001R;109;R;Helsinki-Riihimäki
+HSL:3001T;109;T;Helsinki-Riihimäki
+HSL:3001N;109;N;Helsinki-Kerava
+HSL:3001Z;109;Z;Helsinki-Lahti
+HSL:4722;701;722;Rautatientori-Honkanummi-Havukoski
+HSL:4723;704;723;Koivukylän palvelulinja
+HSL:4724;701;724;Rautatientori-Jokiniemi-Päiväkumpu
+HSL:4335B;701;335B;Myyrmäki-Martinlaakso-Askisto
+HSL:2195;701;195;Kamppi-Latokaski
+HSL:2194;701;194;Kamppi-Tapiola
+HSL:3002E;109;E;Helsinki-Kauklahti
+HSL:3002A;109;A;Helsinki-Leppävaara
+HSL:3002L;109;L;Helsinki-Kirkkonummi
+HSL:7989BV;700;989BV;Monninkylä-Pornainen-Halkia-Pihlajamäki
+HSL:3002U;109;U;Helsinki-Kirkkonummi
+HSL:3002P;109;P;Helsinki-Helsinki
+HSL:7989BB;700;989BB;Pornainen-Halkia-Pihlajamäki
+HSL:3002X;109;X;Helsinki-Kirkkonummi
+HSL:3002Y;109;Y;Helsinki-Siuntio
+HSL:2165;701;165;Kamppi-Saunalahti-Kauklahti
+HSL:9975T;701;975T;Kerava as.-Viro
+HSL:2160;701;160;Kamppi-Latokaski
+HSL:9975K;701;975K;Bastukärr-Keravan as.-Mattilanpuisto
+HSL:2158;701;158;Kamppi-Nöykkiönlaakso-Tillinmäki
+HSL:2156;701;156;Kamppi-Sunanniitty-Tuomarila
+HSL:9975B;701;975B;Sorsakorpi-Keravan asema
+HSL:2154;701;154;Kamppi-Suomenoja-Tuomarila
+HSL:2150;701;150;Kamppi-Kivenlahti
+HSL:2149;704;149;Espoonlahden keskus-Kivenlahti
+HSL:2148;704;148;Espoonlahden keskus-Soukka-Iivisniemi
+HSL:2147;701;147;Kamppi-Kivenlahti
+HSL:2145;701;145;Kamppi-Suvisaaristo
+HSL:9978Z;701;978Z;Kaskela-Lapila-Keravan asema
+HSL:9978T;701;978T;Kaskela-Kytömaa-Keravan taksiasema-Terveyskeskus
+HSL:2169;704;169;Espoon keskus-Suvela
+HSL:2168;704;168;Espoon keskus-Mikkelä-Kauklahti
+HSL:9978L;701;978L;Kaskela-Kytömaa-Lapila-Terveyskeskus
+HSL:9973L;701;973L;Peijas-Korso-Kannisto-Keravan asema-Virrenkulma
+HSL:9841N;701;841N;Rautatientori-Östersundom-Söderkulla
+HSL:9633;701;633;Rautatientori-Vallinoja-Kerava
+HSL:2194A;701;194A;Kamppi-Orion
+HSL:2242;701;242;Espoon keskus-Muurala-Nupuri-Siikaniemi
+HSL:2241;701;241;Espoon keskus-Mikkelä-Hirvisuo
+HSL:2239;701;239;Leppävaara-Viherlaakso-Perusmäki-Kalajärvi
+HSL:2238;701;238;Leppävaara-Nupuri-Brobacka-Siikajärvi-Siikaniemi
+HSL:2236;701;236;Leppävaara-Viherlaakso-Kalajärvi-Serena
+HSL:2235;701;235;Elielinaukio-Leppävaara-Espoon keskus-Kuurinniitty
+HSL:2232;704;232;Kirkkotie-Sepänkylä-Gallträsk-Kasavuori-Kirkkotie
+HSL:2229;704;229;Leppävaara-Karakallio-Viherlaakso
+HSL:2227;701;227;Leppävaara-Karakallio-Lippajärvi-Espoon keskus
+HSL:2226;701;226;Leppävaara-Karakallio-Viherlaakso-Jorvi
+HSL:2224;701;224;Leppävaara-Kauniainen-Espoon keskus-Tuomarila
+HSL:9788KV;701;788KV;Rautatientori-Kuninkaanmäki-Nikkilä-Hinthaara-Porvoo
+HSL:2246;701;246;Espoon keskus-Röylä-Bodom-Espoon keskus
+HSL:2245;701;245;Espoon keskus-Nuuksionpää
+HSL:2218;701;218;Elielinaukio-Leppävaara-Lähderanta-Jupperi
+HSL:2217;701;217;Elielinaukio-Leppävaara-Karamalmi-Lähderanta-Jupperi
+HSL:2215;701;215;Leppävaara-Jupperi-Lähderanta
+HSL:2214;701;214;Leppävaara-Rastaala-Veini-Jupperi
+HSL:2213;701;213;Kamppi-Meilahti-Suvela-Espoon keskus-Kauklahti
+HSL:2212;701;212;Kamppi-Meilahti-Laajalahti-Kauniainen
+HSL:2219;701;219;Leppävaara-Karakallio-Lähderanta-Järvenperä
+HSL:2207;704;207;Leppävaara-Lintukorpi
+HSL:2206;701;206;Kamppi-Meilahti-Etelä-Leppävaara-Kera
+HSL:2203;701;203;Laajalahti-Nuijala-Leppävaara-Uusmäki
+HSL:2202;701;202;Leppävaara-Helmipöllönmäki
+HSL:2201;704;201;Leppävaara-Mäkkylä-Pitäjänmäki- Pajamäki
+HSL:9987B;701;987B1;Nikkilä-Pornainen
+HSL:9989J;701;989J;Jokimäki-Pornainen-Järvenpää as.
+HSL:9989B;701;989B;Jokimäki-Laukkoski-Pornainen-Pihlajamäki
+HSL:9785;701;785;Rautatientori-Jokivarsi-Nikkilä
+HSL:9788;701;788;Rautatientori-Jokivarsi-Nikkilä-Hinthaara-Porvoo
+HSL:9786;701;786;Rautatientori-Jokivarsi-Nikkilä-Järvenpään asema
+HSL:9787;701;787;Rautatientori-Jokivarsi-Nikkilä-Pornainen
+HSL:9984K;701;984K;Hindsby (Knuters)-Nikkilä- Mårsbackantie-Talma
+HSL:2553K;701;553K;Hakunila-Malmi-Maunula-Leppävaara
+HSL:9985K;701;985K;Nikkilä-Bastukärr-Neulasniitty-Talma-Keravan asema
+HSL:2582KB;701;582KB;Espoon keskus-Koskelo-Juvanmalmi-Kalajärvi
+HSL:9986B;701;986B;Nikkilä-Etelä-Paippinen-Rajakulma
+HSL:9738;701;738;Rautatientori-Kerava
+HSL:7190;700;190;Helsinki-Länsiväylä-Jorvaksentie (-Inkoo)
+HSL:4560;702;560;Rastila (M)-Vuosaari (M)-Kontula (M)-Malmi-Myyrmäki
+HSL:4561;701;561;Itäkeskus (M) - Malmi - Aviapolis - Lentoasema
+HSL:4562;701;562;Mellunmäki - Tikkurila - Aviapolis
+HSL:4555;701;555;Lauttasaari (M)-Martinlaakso
+HSL:5510B;701;510B;Myyrmäki-Leppävaara
+HSL:1811K;704;811K;Mellunmäki-Länsimäki-Rajakylä
+HSL:4518;701;518;Ilmala-Pasila-Kuninkaanmäki
+HSL:31M2;1;M2;Ruoholahti - Mellunmäki
+HSL:31M1;1;M1;Ruoholahti - Vuosaari
+HSL:1811B;704;811B;Kivikko-Kontula-Mellunmäki
+HSL:4572K;701;572K;Mellunmäki-Myyrmäki
+HSL:4444T;701;444T;Kivistö-Katriinan sairaala-Tapola-Pirttiranta-Riipilä
+HSL:4311A;701;311A;Tikkurila-Myyrmäki-Hämeenkylä
+HSL:4445T;701;445T;Kivistö-Katriinan sairaala-Tapola-Reuna
+HSL:4443K;701;443K;Kivistö-Luhtaanmäki-Vestra
+HSL:4576;701;576;Tikkurila-Seutula-Kivistö
+HSL:4571;701;571;Tikkurila-Myyrmäki-Varisto
+HSL:4572;701;572;Mellunmäki-Myyrmäki
+HSL:4573;701;573;Aviapolis-Ylästö-Vantaankoski
+HSL:4574;701;574;Peijas-Myyrmäki
+HSL:4575;701;575;Tikkurila-Martinlaakso
+HSL:4587;701;587;Mellunmäki-Leppäkorpi
+HSL:4588;701;588;Länsisalmi-Sotungin koulu
+HSL:4717AK;701;717AK;Sotunki-Hakunila-Jakomäki-Rautatientori
+HSL:7962BV;700;962BV;Aviapolis-Hyrylä
+HSL:2019;701;19;Tapiola-Espoon keskus-Tuomarilan asema
+HSL:2018;701;18;Tapiola-Kauniainen-Espoon keskus-Kauklahti
+HSL:2016;701;16;Matinkylä-Olari-Henttaa
+HSL:2015;701;15;Otaniemi-Jupperi
+HSL:2014;701;14;Tapiola-Kivenlahti
+HSL:2012;701;12;Tapiola-Soukka
+HSL:2011;701;11;Tapiola-Matinkylä-Friisilänaukio
+HSL:7962BB;700;962BB;Jumbo-Aviapolis-Hyrylä
+HSL:2010;701;10;Otaniemi-Pohjois-Tapiola-Haukilahti-Matinkylä-Kuitinmäki
+HSL:2005;701;5;Leppävaara-Nihtisilta-Suurpelto-Matinkylä
+HSL:2003;701;3;Leppävaara-Nihtisilta-Soukka-Kivenlahti
+HSL:4617;701;617;Hakaniemi-Lentoasema
+HSL:4618;704;618;Tikkurila-Simonkylä-Leinelä-Peijas
+HSL:4619;701;619;Tikkurila-Hiekkaharju-Simonsilta
+HSL:4611;701;611;Rautatientori-Siltamäki-Suutarila-Tikkurila
+HSL:4614;701;614;Rautatientori-Ylästö
+HSL:4615;701;615;Rautatientori-Kartanonkoski-Lentoasema
+HSL:4616;701;616;Hakaniemi-Tammisto-Kivistö
+HSL:4631;701;631;Tikkurila-Kulomäki
+HSL:4621;701;621;Hakaniemi-Aviapolis-Kylmäoja
+HSL:4622;701;622;Hakaniemi-Kylmäoja
+HSL:4623;701;623;Hakaniemi-Peijas
+HSL:4624;701;624;Tikkurila-Ilola-Leinelä-Koivukylä-Havukoski-Päiväkumpu
+HSL:4625;701;625;Leinelä-Koivukylä-Peijas-Rekolanmäki
+HSL:4588B;701;588B;Länsisalmi-Sotungin koulu
+HSL:2042;701;42;Soukka-Jorvi
+HSL:2038;701;38;Elielinaukio-Pitäjänmäki-Uusmäki
+HSL:2031;701;31;Friisilänaukio-Jorvi
+HSL:2065;701;65;Espoonlahti-Kauklahti-Espoonkartano
+HSL:2046;701;46;Hyljelahti-Espoon keskus
+HSL:4717;701;717;Rautatientori-Jakomäki-Hakunila-Kuninkaanmäki
+HSL:4718;701;718;Rautatientori-Nissas
+HSL:4719;701;719;Nybygget-Hakunila
+HSL:4711;701;711;Kuninkaanmäki-Tikkurila
+HSL:4712;701;712;Kuninkaanmäki-Tikkurila
+HSL:4713;704;713;Hakunilan palvelulinja
+HSL:2150N;701;150N;Kamppi-Kivenlahti-Latokaski
+HSL:2150K;701;150K;Kamppi-Kivenlahti-Saunaniemi
+HSL:1085B;701;85B;Herttoniemi(M)-Yliskylä-Jollas
+HSL:2150A;701;150A;Kamppi-Kivenlahti-Tillinmäki
+HSL:1085N;701;85N;Rautatientori-Herttoniemenranta-Yliskylä-Jollas
+HSL:2238KB;701;238KB;Leppävaara-Nupuri-Kolmperä-Siikajärvi
+HSL:2238KT;701;238KT;Leppävaara-Nupuri-Kolmperä-Siikaranta
+HSL:4322;701;322;Elielinaukio-Vantaankoski
+HSL:4313;704;313;Kaivoksela-Myyrmäki-Hämeenkylä
+HSL:1082B;701;82B;Herttoniemi(M)-Tammisalo-Roihuvuori-Itäkeskus(M)
+HSL:4311;701;311;Myyrmäki-Hämeenkylä
+HSL:2154T;701;154T;Kamppi-Suomenoja-Tuomarila
+HSL:2154N;701;154N;Kamppi-Kuitinmäki-Tuomarila
+HSL:6911;701;911;Kauklahti-Masala-Kirkkonummi
+HSL:6906;701;906;Luoma-Masala-Kauhala
+HSL:6908;701;908;Kirkkonummi-Evitskog-Kylmälä-Veikkola-Kaislampi
+HSL:6907;701;907;Kirkkonummi-Veklahti-Lapinkylä-Veikkola
+HSL:6909;701;909;Veikkola-Lapinkylä-Kauhala
+HSL:6902;701;902;Pikkalan tehdas-Kirkkonummi-Porkkala
+HSL:6901;701;901;Luoma-Masala-Jorvaksentie-Hirsala
+HSL:6903;701;903;Kirkkonummi-Hila
+HSL:1086N;701;86N;Rautatientori-Kulosaari-Herttoniemi-Santahamina
+HSL:4335;701;335;Linnainen-Vapaala-Myyrmäki-Louhela-Martinlaakso-Askisto
+HSL:4332;701;332;Elielinaukio-Varisto-Askisto
+HSL:4555B;701;555B;Leppävaara-Hämevaara-Myyrmäki
+HSL:4415N;701;415N;Elielinaukio-Myyrmäki-Ylästö-Lentoasema
+HSL:4421;701;421;Elielinaukio-Martinlaakso
+HSL:1097V;701;97V;Itäkeskus(M)-Puotila-Vartioharju-Mellunmäki(M)
+HSL:4411;701;411;Elielinaukio-Myyrmäki
+HSL:1097N;701;97N;Rautatient.-Puotila-Mellunmäki-Kontula (Kotikonnuntie)
+HSL:4412;701;412;Kaivoksela-Myyrmäki
+HSL:4413;704;413;Martinlaakso-Myyrmäki
+HSL:4415;701;415;Elielinaukio-Ylästö-Lentoasema
+HSL:1096N;701;96N;Rautatientori-Aurinkolahti-Vuosaari(Porslahdentie)
+HSL:2160K;701;160K;Kamppi-Latokaski
+HSL:4443;701;443;Kivistö-Vestra
+HSL:2160T;701;160T;Kamppi-Lauttasaari-Latokaski
+HSL:4433;701;433;Martinlaakso-Kivistö
+HSL:4434;701;434;Kivistö-Keimola
+HSL:1095N;701;95N;Rautatientori-Tammisalo-Roihuv.-Mellunmäki-Länsimäki
+HSL:1094B;701;94B;Kivikonlaita-Kontula(M)
+HSL:4431;701;431;Elielinaukio-Kivistö
+HSL:4432;701;432;Martinlaakso-Petas-Kivistö-Kirkka
+HSL:1094A;701;94A;Kotikonnuntie-Kontula(M)-Kivikko-Kontula(M)
+HSL:1094N;701;94N;Rautatientori-Roihuvuori-Kontulankaari
+HSL:2166B;701;166B;Kauklahti-Lasilaakso
+HSL:4562N;701;562N;Mellunmäki - Tikkurila - Aviapolis - Lentoasema
+HSL:2165N;701;165N;Kamppi-Saunalahti-Kauklahti-Espoonkartano-Kauklahti
+HSL:2165V;701;165V;Kamppi-Kauklahti
+HSL:4433K;701;433K;Martinlaakso-Petas-Kivistö
+HSL:7190K;700;190K;Helsinki-Länsiväylä-Kirkkonummi (-Inkoo)
+HSL:4431N;701;431N;Elielinaukio-Myyrmäki-Kannisto-Kivistö
+HSL:4444;701;444;Kivistö-Katriinan sairaala-Tapola-Riipilä
+HSL:4445;701;445;Kivistö-Katriinan sairaala-Reuna
+HSL:4446;701;446;Kivistö-Koivupää-Katriinan sairaala-Kesäkylä
+HSL:4447;701;447;Kivistö-Viinikanmetsä-Kesäkylä
+HSL:9989BB;701;989BB;Pornainen-Halkia-Pihlajamäki
+HSL:1093K;701;93K;Itäkeskus(M)-Östersundom-Karhusaari-Landbo
+HSL:1092N;701;92N;Rautatientori-Myllypuro-Kivikko-Kontula (Keinutie)
+HSL:1091K;701;91K;Rapuojantie-Östersundom-Puroniitty
+HSL:1090A;701;90A;Rautatientori-Vuosaaren satama
+HSL:1090N;701;90N;Rautatientori-Länsi-Herttoniemi-Vuosaari (Kallvikintie)
+HSL:1061T;701;61T;Rautatientori-Pukinmäki-Tapaninkylä
+HSL:1061N;701;61N;Rautatientori-Pukinmäki-Töyrynummi
+HSL:2143AT;701;143AT;Kamppi-Lauttasaari-Soukanniemi
+HSL:2132N;701;132N;Kamppi-Haukilahti-Matinkylä-Friisilänaukio
+HSL:1067N;701;67N;Rautatientori-Torpparinmäki
+HSL:1067V;701;67V;Rautatientori-Torpparinmäki
+HSL:1066K;701;66K;Rautatientori-Metsälä-Maunula-Länsi-Pakila-Paloheinä
+HSL:5510;701;510;Martinlaakso-Tapiola
+HSL:1073N;701;73N;Rautatientori-Malmi-Puistolan asema-Ala-Tikkurila
+HSL:1071B;701;71B;Rautatientori-Arabia- Pihlajisto-Viikki
+HSL:1077N;701;77N;Rautatientori-Arabia-Malmi-Jakomäki
+HSL:1074N;701;74N;Rautatientori-Malmi-Tapanila-Puistola-Heikinlaakso
+HSL:2012B;701;12B;Tapiola-Soukka
+HSL:2145N;701;145N;Kamppi-Suvisaaristo
+HSL:2145K;701;145K;Kamppi-Suvisaaristo
+HSL:1079N;701;79N;Rautatientori-Malmi-Siltamäki-Puistolan asema
+HSL:1079B;701;79B;Siilitie (M)-Latokartano
+HSL:2143T;701;143T;Kamppi-Soukka
+HSL:1078N;701;78N;Rautatientori-Viikki-Latokartano
+HSL:2143A;701;143A;Kamppi-Soukanniemi
+HSL:2010K;701;10K;Otaniemi-Pohjois-Tapiola-Haukilahti-Matinkylä-Kuitinmäki
+HSL:2143K;701;143K;Kamppi-Suomenojan teoll.alue-Soukka
+HSL:2016B;701;16B;Henttaa-Orion-Niittykumpu-Olari-Henttaa
+HSL:2016A;701;16A;Henttaa-Orion-Niittykumpu-Olari-Henttaa
+HSL:5566;701;566;Martinlaakso-Espoon keskus
+HSL:2147T;701;147T;Kamppi-Kivenlahti
+HSL:5565;701;565;Vantaankoski-Myyrmäki-Jupperi-Jorvi-Espoon keskus
+HSL:2014B;701;14B;Tapiola-Kivenlahti
+HSL:2147N;701;147N;Kamppi-Kivenlahti-Saunalahti
+HSL:2147K;701;147K;Kamppi-Kivenlahti
+HSL:9987BB;701;987BB;Nikkilä-Jokimäki-Laukkoski
+HSL:2349BK;701;349BK;Lepsämänjoki-Hännikäinen-Kalajärvi

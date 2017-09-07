@@ -1,0 +1,107 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Getting Started: Serving Web Content</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+</head>
+<body>
+    <h1>Hello HSL</h1>
+   
+	   <table class="table">
+	   <thead>
+		   <tr>
+			   <th>Line</th>
+			   <th>Latitude</th>
+			   <th>Longitude</th>
+			   <th>Delay (Difference to Schedule)</th>
+			   <th>Tsi</th>
+			   <th>Tst</th>
+		   </tr>
+	   </thead>
+	   <tbody>
+	   <th:block th:each="bus : ${busList}">
+	      <tr>
+	         <td th:text="${bus.desi}"></td>
+	         <td th:text="${bus.lat}"></td>
+	         <td th:text="${bus.lon}"></td>
+	         <td th:text="${bus.dl}"></td>
+	         <td th:text="${bus.tsi}"></td>
+	         <td th:text="${bus.tst}"></td>
+	      </tr>
+	   </th:block>
+	   </tbody>
+	</table>
+	<div id="map" style="height: 500px; width: 100%;"></div>
+	<script th:inline="javascript">
+		/*<![CDATA[*/
+
+    var message = [[${busList}]];
+    console.log(message);
+	console.log(message[1].lat);
+
+		/*]]>*/
+
+</script>
+
+    <script>
+    
+    var mapStyle = [
+        {
+            "stylers": [
+                {
+                    "hue": "#2c3e50"
+                },
+                {
+                    "saturation": 250
+                }
+            ]
+        },
+        {
+            "featureType": "road",
+            "elementType": "geometry",
+            "stylers": [
+                {
+                    "lightness": 50
+                },
+                {
+                    "visibility": "simplified"
+                }
+            ]
+        },
+        {
+            "featureType": "road",
+            "elementType": "labels",
+            "stylers": [
+                {
+                    "visibility": "off"
+                }
+            ]
+        }
+    ];
+    
+      function initMap() {
+    	var lat = Number(message[0].lat);
+    	var lon = Number(message[0].lon);
+
+    	
+        var bus = {lat: Number(message[0].lat), lng: Number(message[0].lon)};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 12,
+          center: {lat: 60.188304, lng: 24.940409},
+          styles: mapStyle
+        });
+        var marker = new google.maps.Marker({
+          position: bus,
+          map: map
+        });
+      }
+    </script>
+	<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+	<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script async='async' defer='defer' src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcyBT95IoltEkMk4_UGa9M6cJ-YHsBdlQ&amp;callback=initMap"></script>
+</body>
+</html>
