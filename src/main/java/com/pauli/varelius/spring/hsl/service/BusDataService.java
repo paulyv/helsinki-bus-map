@@ -43,7 +43,6 @@ public class BusDataService {
 				busListWithId.add(bus);
 			}
 		}
-
 		return busListWithId;
 	}
 

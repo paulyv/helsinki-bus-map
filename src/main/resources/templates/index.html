@@ -32,76 +32,33 @@
 	   </th:block>
 	   </tbody>
 	</table>
+	<div class="row">
+ 		<div class="col-m-6">
+    		<div class="input-group">
+      			<input type="text" class="form-control" placeholder="Search for..."></input>
+      			<span class="input-group-btn">
+        			<button id="goBtn" class="btn btn-secondary" type="button">Go!</button>
+      			</span>
+    		</div>
+  		</div>
+	</div>
 	<div id="map" style="height: 500px; width: 100%;"></div>
+	
 	<script th:inline="javascript">
-		/*<![CDATA[*/
-
-    var message = [[${busList}]];
-    console.log(message);
-	console.log(message[1].lat);
-
-		/*]]>*/
+	/*<![CDATA[*/
+    	var message = [[${busList}]];
+    	console.log(message);
+	/*]]>*/
 
 </script>
 
-    <script>
-    
-    var mapStyle = [
-        {
-            "stylers": [
-                {
-                    "hue": "#2c3e50"
-                },
-                {
-                    "saturation": 250
-                }
-            ]
-        },
-        {
-            "featureType": "road",
-            "elementType": "geometry",
-            "stylers": [
-                {
-                    "lightness": 50
-                },
-                {
-                    "visibility": "simplified"
-                }
-            ]
-        },
-        {
-            "featureType": "road",
-            "elementType": "labels",
-            "stylers": [
-                {
-                    "visibility": "off"
-                }
-            ]
-        }
-    ];
-    
-      function initMap() {
-    	var lat = Number(message[0].lat);
-    	var lon = Number(message[0].lon);
 
-    	
-        var bus = {lat: Number(message[0].lat), lng: Number(message[0].lon)};
-        var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 12,
-          center: {lat: 60.188304, lng: 24.940409},
-          styles: mapStyle
-        });
-        var marker = new google.maps.Marker({
-          position: bus,
-          map: map
-        });
-      }
-    </script>
-	<script
-  src="https://code.jquery.com/jquery-3.2.1.min.js"
-  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-  crossorigin="anonymous"></script>
-	<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	<script async='async' defer='defer' src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcyBT95IoltEkMk4_UGa9M6cJ-YHsBdlQ&amp;callback=initMap"></script>
+<script
+ src="https://code.jquery.com/jquery-3.2.1.min.js"
+ integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+ crossorigin="anonymous"></script>
+<script src="/js/main.js"></script>
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script async='async' defer='defer' src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcyBT95IoltEkMk4_UGa9M6cJ-YHsBdlQ&amp;callback=initMap"></script>
 </body>
 </html>
