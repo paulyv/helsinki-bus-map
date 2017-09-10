@@ -1,49 +1,25 @@
 <!DOCTYPE HTML>
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
-    <title>Getting Started: Serving Web Content</title>
+    <title>HSL Realtime Bus Locations</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
 </head>
 <body>
-    <h1>Hello HSL</h1>
-   
-	   <table class="table">
-	   <thead>
-		   <tr>
-			   <th>Line</th>
-			   <th>Latitude</th>
-			   <th>Longitude</th>
-			   <th>Delay (Difference to Schedule)</th>
-			   <th>Tsi</th>
-			   <th>Tst</th>
-		   </tr>
-	   </thead>
-	   <tbody>
-	   <th:block th:each="bus : ${busList}">
-	      <tr>
-	         <td th:text="${bus.desi}"></td>
-	         <td th:text="${bus.lat}"></td>
-	         <td th:text="${bus.lon}"></td>
-	         <td th:text="${bus.dl}"></td>
-	         <td th:text="${bus.tsi}"></td>
-	         <td th:text="${bus.tst}"></td>
-	      </tr>
-	   </th:block>
-	   </tbody>
-	</table>
-	<div class="row">
- 		<div class="col-m-6">
-    		<div class="input-group">
-      			<input id="inputField" type="text" class="form-control" placeholder="Search for..."></input>
-      			<span class="input-group-btn">
-        			<button id="goBtn" class="btn btn-secondary" type="button">Go!</button>
-      			</span>
-    		</div>
-  		</div>
+	<div class="container">
+		<h1>Realtime Bus Locations</h1>
+		<div class="row">
+	 		<div class="col-md-6">
+	    		<div class="input-group">
+	      			<input id="inputField" type="text" class="form-control" placeholder="Search for..."></input>
+	      			<span class="input-group-btn">
+	        			<button id="goBtn" class="btn btn-secondary" type="button">Go!</button>
+	      			</span>
+	    		</div>
+	  		</div>
+		</div>
+		<div id="map" style="height: 500px; width: 100%;"></div>	
 	</div>
-	<div id="map" style="height: 500px; width: 100%;"></div>
-	
 	<script th:inline="javascript">
 	/*<![CDATA[*/
     	var message = [[${busList}]];
