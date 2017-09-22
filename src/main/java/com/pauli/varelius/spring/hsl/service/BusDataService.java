@@ -20,7 +20,7 @@ public class BusDataService {
 
 	private final String API_URL = "http://api.digitransit.fi/realtime/vehicle-positions/v1/hfp/journey/+/+/";
 
-	public List<BusData> getData(String busId) throws IOException {
+	public List<BusData> getData(List<String> busIds) throws IOException {
 
 		RestTemplate template = new RestTemplate();
 
@@ -39,8 +39,10 @@ public class BusDataService {
 		List<BusData> busListWithId = new ArrayList<>();
 
 		for (BusData bus : busDataList) {
-			if (bus.getDesi().equals(busId)) {
-				busListWithId.add(bus);
+			for(String id : busIds) {
+				if(bus.getDesi().equals(id)) {
+					busListWithId.add(bus);
+				}
 			}
 		}
 		return busListWithId;

@@ -7,7 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.ui.ModelMap;
-import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
@@ -21,9 +21,9 @@ public class ControllerRest<T> {
 	@Autowired
 	Facade facade;
 	
-	@RequestMapping(value = "/{busId}", method = RequestMethod.POST)
-	public ResponseEntity<List<BusData>> getBusData(@PathVariable("busId") String busId, ModelMap modelMap) throws IOException {
-			List<BusData> busList = facade.getBusData(busId);
+	@RequestMapping(value = "/", method = RequestMethod.POST)
+	public ResponseEntity<List<BusData>> getBusData(@RequestBody List<String> busIds, ModelMap modelMap) throws IOException {
+			List<BusData> busList = facade.getBusData(busIds);
 			return new ResponseEntity<>(busList, HttpStatus.OK);
 	}
 

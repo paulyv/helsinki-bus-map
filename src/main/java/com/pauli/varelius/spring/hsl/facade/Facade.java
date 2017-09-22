@@ -15,8 +15,8 @@ public class Facade {
 	@Autowired
 	BusDataService busDataService;
 
-	public List<BusData> getBusData(String busId) throws IOException {
-		List<BusData> busList = busDataService.getData(busId);
+	public List<BusData> getBusData(List<String> busIds) throws IOException {
+		List<BusData> busList = busDataService.getData(busIds);
 		return busList;
 	}
 }

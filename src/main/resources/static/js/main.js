@@ -47,6 +47,7 @@ function initMap() {
 		currentBus: '',
 		locations: [],
 		markers: [],
+		busPool: [],
 		init: function() {
 			  this.cacheDOM();
 			  this.bindEvents();
@@ -57,8 +58,8 @@ function initMap() {
 	          var Marker =  new google.maps.Marker({
 	                position: {lat: Number(_self.locations[i].lat), lng: Number(_self.locations[i].long)},
 	                map: map
-	            });
-	            _self.markers.push(Marker);
+	            }); 
+	            this.markers.push(Marker);
 		    }
 		},
 		clearMarkers: function() {
@@ -66,11 +67,14 @@ function initMap() {
 			for(var i = 0; i < _self.markers.length; i++) {
 				_self.markers[i].setMap(null);
 			}
-			_self.markers = [];
+			this.markers = [];
 		},
 		cacheDOM: function() {
 			this.$buttonEl = $('#goBtn');
+			this.$addBtnEl = $('#addBtn');
 			this.$inputEl = $('#inputField');
+			this.$busInputEl = $('#addBus');
+			this.$busListEl = $('#busList');
 			this.$mapEl = $('#map');
 		},
 		bindEvents: function() {
@@ -89,6 +93,23 @@ function initMap() {
 					e.preventDefault();
 				}
 			});
+			this.$addBtnEl.on('click', function(e) {
+				var bus = _self.$busInputEl.val();
+				_self.$busListEl.append('<span class="badge badge-pill badge-primary busItem">'+bus+'</span>');
+				_self.busPool.push(bus);
+				_self.$busInputEl.val('');
+			});
+			
+			this.$busListEl.on('click','.busItem', function(e) {
+				var busNum = $(this).text();
+				$(this).remove();
+
+				var index = _self.busPool.indexOf(busNum);
+				if (index !== -1) {
+				    _self.busPool.splice(index, 1);
+				}
+			});
+			
 		},
 		updateLocationData: function() {
 			console.log("Update data");
@@ -96,7 +117,10 @@ function initMap() {
 			
 			$.ajax({
 				type: "POST",
-				url: '/' + _self.currentBus,
+				url: '/',
+				contentType: "application/json; charset=utf-8",
+		        dataType: "json",
+				data: JSON.stringify(_self.busPool),
 				success: function(result) {
 					console.log(result);
 					_self.locations = result;
@@ -104,6 +128,10 @@ function initMap() {
 					_self.updateMarkers();
 				}
 			});
+		},
+		
+		addBusToPool: function() {
+			
 		}
 	};
 	getDataModule.init();
