@@ -44,7 +44,6 @@ function initMap() {
 (function() {
 
 	var getDataModule =  {
-		currentBus: '',
 		locations: [],
 		markers: [],
 		busPool: [],
@@ -70,29 +69,14 @@ function initMap() {
 			this.markers = [];
 		},
 		cacheDOM: function() {
-			this.$buttonEl = $('#goBtn');
 			this.$addBtnEl = $('#addBtn');
-			this.$inputEl = $('#inputField');
 			this.$busInputEl = $('#addBus');
 			this.$busListEl = $('#busList');
 			this.$mapEl = $('#map');
 		},
 		bindEvents: function() {
 			var _self = this;
-			this.$buttonEl.on('click', function(e) {
-				console.log(_self.$inputEl.val());
-				_self.currentBus = _self.$inputEl.val();
-				_self.updateLocationData();
-				e.preventDefault();
-			});
-			this.$inputEl.on('keydown', function(e) {
-				if(e.which == 13) {
-					console.log(_self.$inputEl.val());
-					_self.currentBus = _self.$inputEl.val();
-					_self.updateLocationData();
-					e.preventDefault();
-				}
-			});
+
 			this.$addBtnEl.on('click', function(e) {
 				var bus = _self.$busInputEl.val();
 				_self.$busListEl.append('<span class="badge badge-pill badge-primary busItem">'+bus+'</span>');
@@ -109,11 +93,10 @@ function initMap() {
 				if (index !== -1) {
 				    _self.busPool.splice(index, 1);
 				}
-				
 				_self.updateLocationData();
 			});
-			
 		},
+		
 		updateLocationData: function() {
 			console.log("Update data");
 			var _self = this;
@@ -131,10 +114,6 @@ function initMap() {
 					_self.updateMarkers();
 				}
 			});
-		},
-		
-		addBusToPool: function() {
-			
 		}
 	};
 	
