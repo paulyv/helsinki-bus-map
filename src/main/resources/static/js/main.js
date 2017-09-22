@@ -98,6 +98,7 @@ function initMap() {
 				_self.$busListEl.append('<span class="badge badge-pill badge-primary busItem">'+bus+'</span>');
 				_self.busPool.push(bus);
 				_self.$busInputEl.val('');
+				_self.updateLocationData();
 			});
 			
 			this.$busListEl.on('click','.busItem', function(e) {
@@ -108,6 +109,8 @@ function initMap() {
 				if (index !== -1) {
 				    _self.busPool.splice(index, 1);
 				}
+				
+				_self.updateLocationData();
 			});
 			
 		},
@@ -134,6 +137,7 @@ function initMap() {
 			
 		}
 	};
+	
 	getDataModule.init();
 	
 })();
