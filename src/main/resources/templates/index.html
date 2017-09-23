@@ -3,25 +3,21 @@
 <head>
     <title>HSL Realtime Bus Locations</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" type="text/css" href="/css/main.css" />
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
 </head>
 <body>
-	<div class="container">
-		<h1>Realtime Bus Locations</h1>
-		<div class="row">
-	 		<div class="col-md-6">
-	    		<div class="input-group">
-	      			<input id="addBus" type="text" class="form-control" placeholder="Add a bus to map"></input>
-	      			<span class="input-group-btn">
-	        			<button id="addBtn" class="btn btn-secondary" type="button">Add bus</button>
-	      			</span>
-	    		</div>
-	  		</div>
+	<div id="wrapper">
+		<div id="sidebar"> 
+   			<input id="addBus" type="text" class="form-control" placeholder="Add a bus to map"></input>
+   			<span class="input-group-btn">
+     			<button id="addBtn" class="btn btn-secondary" type="button">Add bus</button>
+   			</span>
+   			<div id="busList"></div>
 		</div>
-		
-		<div id="busList"></div>
-		
-		<div id="map" style="height: 500px; width: 100%;"></div>	
+		<div id="main-content">
+			<div id="map"></div>
+		</div>	
 	</div>
 	<script th:inline="javascript">
 	/*<![CDATA[*/
@@ -32,11 +28,7 @@
 </script>
 
 
-<script
- src="https://code.jquery.com/jquery-3.2.1.min.js"
- integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
- crossorigin="anonymous"></script>
-
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script async='async' defer='defer' src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcyBT95IoltEkMk4_UGa9M6cJ-YHsBdlQ&amp;callback=initMap"></script>
 <script src="/js/main.js"></script>

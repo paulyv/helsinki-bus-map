@@ -1,0 +1,29 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px
+}
+#wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+#sidebar {
+  width: 20%;
+  float: left;
+  height: 100%;
+}
+
+#main-content {
+  width: 80%;
+  height: 100%;
+  float: left;
+}
+
+#map {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
