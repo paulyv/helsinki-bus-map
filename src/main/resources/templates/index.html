@@ -8,16 +8,21 @@
 </head>
 <body>
 	<div id="wrapper">
-		<div id="sidebar"> 
-   			<input id="addBus" type="text" class="form-control" placeholder="Add a bus to map"></input>
+		
+		<!--/* SIDEBAR CONTENT */-->
+		<div id="sidebar">
+   			<input id="addBus" type="text" class="form-control" placeholder="Add a bus"></input>
    			<span class="input-group-btn">
      			<button id="addBtn" class="btn btn-secondary" type="button">Add bus</button>
    			</span>
    			<div id="busList"></div>
 		</div>
+		
+		<!--/* MAIN CONTENT */-->
 		<div id="main-content">
 			<div id="map"></div>
 		</div>	
+		
 	</div>
 	<script th:inline="javascript">
 	/*<![CDATA[*/
