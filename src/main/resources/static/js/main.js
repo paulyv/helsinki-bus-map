@@ -47,6 +47,7 @@ function initMap() {
 		locations: [],
 		markers: [],
 		busPool: [],
+		interval: null,
 		init: function() {
 			  this.cacheDOM();
 			  this.bindEvents();
@@ -82,7 +83,11 @@ function initMap() {
 				_self.$busListEl.append('<span class="badge badge-pill badge-primary busItem">'+bus+'</span>');
 				_self.busPool.push(bus);
 				_self.$busInputEl.val('');
-				_self.updateLocationData();
+				clearInterval(_self.interval);
+				_self.interval = setInterval(function() {
+					console.log("update");
+					_self.updateLocationData();
+				}, 5000);
 			});
 			
 			this.$busListEl.on('click','.busItem', function(e) {
@@ -92,6 +97,9 @@ function initMap() {
 				var index = _self.busPool.indexOf(busNum);
 				if (index !== -1) {
 				    _self.busPool.splice(index, 1);
+				}
+				if(_self.busPool.length < 1) {
+					clearInterval(_self.interval);
 				}
 				_self.updateLocationData();
 			});
