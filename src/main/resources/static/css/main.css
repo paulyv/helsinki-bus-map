@@ -15,7 +15,21 @@ body {
   float: left;
   height: 100%;
 }
+#addBus {
+	width: 100%;
+}
+#addBtn {
+	width: 100%;
+}
 
+#busList {
+	width: 100%;
+	margin-top: 40px;
+}
+
+#busList > span {
+	width: 100%;
+}
 #main-content {
   width: 75%;
   height: 100%;
