@@ -57,6 +57,7 @@ function initMap() {
 		    for(var i = 0; i < _self.locations.length; i++){
 	          var Marker =  new google.maps.Marker({
 	                position: {lat: Number(_self.locations[i].lat), lng: Number(_self.locations[i].long)},
+	                label: _self.locations[i].desi,
 	                map: map
 	            }); 
 	            this.markers.push(Marker);
