@@ -44,9 +44,9 @@ function initMap() {
 (function() {
 
 	var getDataModule =  {
-		locations: [],
+		busDataPool: [],
+		busNamePool: [],
 		markers: [],
-		busPool: [],
 		interval: null,
 		init: function() {
 			  this.cacheDOM();
@@ -54,10 +54,10 @@ function initMap() {
 		},
 		updateMarkers: function() {
 			var _self = this;
-		    for(var i = 0; i < _self.locations.length; i++){
+		    for(var i = 0; i < _self.busDataPool.length; i++){
 	          var Marker =  new google.maps.Marker({
-	                position: {lat: Number(_self.locations[i].lat), lng: Number(_self.locations[i].long)},
-	                label: _self.locations[i].desi,
+	                position: {lat: Number(_self.busDataPool[i].lat), lng: Number(_self.busDataPool[i].long)},
+	                label: _self.busDataPool[i].desi,
 	                map: map
 	            }); 
 	            this.markers.push(Marker);
@@ -82,7 +82,7 @@ function initMap() {
 			this.$addBtnEl.on('click', function(e) {
 				var bus = _self.$busInputEl.val();
 				_self.$busListEl.append('<span class="badge badge-pill badge-primary busItem">'+bus+'</span>');
-				_self.busPool.push(bus);
+				_self.busNamePool.push(bus);
 				_self.$busInputEl.val('');
 				clearInterval(_self.interval);
 				_self.interval = setInterval(function() {
@@ -95,11 +95,11 @@ function initMap() {
 				var busNum = $(this).text();
 				$(this).remove();
 
-				var index = _self.busPool.indexOf(busNum);
+				var index = _self.busNamePool.indexOf(busNum);
 				if (index !== -1) {
-				    _self.busPool.splice(index, 1);
+				    _self.busNamePool.splice(index, 1);
 				}
-				if(_self.busPool.length < 1) {
+				if(_self.busNamePool.length < 1) {
 					clearInterval(_self.interval);
 				}
 				_self.updateLocationData();
@@ -115,10 +115,10 @@ function initMap() {
 				url: '/',
 				contentType: "application/json; charset=utf-8",
 		        dataType: "json",
-				data: JSON.stringify(_self.busPool),
+				data: JSON.stringify(_self.busNamePool),
 				success: function(result) {
 					console.log(result);
-					_self.locations = result;
+					_self.busDataPool = result;
 					_self.clearMarkers();
 					_self.updateMarkers();
 				}
