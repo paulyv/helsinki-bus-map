@@ -81,7 +81,7 @@ function initMap() {
 
 			this.$addBtnEl.on('click', function(e) {
 				var bus = _self.$busInputEl.val();
-				_self.$busListEl.append('<span class="badge badge-pill badge-primary busItem">'+bus+'</span>');
+				_self.$busListEl.append('<div class="alert alert-primary busItem"><i class="material-icons">directions_bus</i>'+bus+'<i class="material-icons" style="float: right;">close</i></div>');
 				_self.busNamePool.push(bus);
 				_self.$busInputEl.val('');
 				clearInterval(_self.interval);
