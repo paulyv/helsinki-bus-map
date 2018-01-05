@@ -85,10 +85,11 @@ function initMap() {
 				_self.busNamePool.push(bus);
 				_self.$busInputEl.val('');
 				clearInterval(_self.interval);
+				_self.updateLocationData();
 				_self.interval = setInterval(function() {
 					console.log("update");
 					_self.updateLocationData();
-				}, 5000);
+				}, 15000);
 			});
 			
 			this.$busListEl.on('click','.busItem', function(e) {
